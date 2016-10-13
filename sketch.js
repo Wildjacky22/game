@@ -4,5 +4,5 @@ function setup() {
 
 function draw() {
   ellipse( mouseX , mouseY , 100 , 100 );
-  fill( 12 , 230 , 18 );
+  fill( 12 , 230 , 18 , 55 );
 }

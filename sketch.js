@@ -1,12 +1,6 @@
 function setup() {
   createCanvas( windowWidth , windowHeight );
 
-  markerAlpha = 0.15;
-  
-  numSpokes = 12;
-
-}
-function setup() {
   setupGlobalVariables();
  
   xRes = windowWidth;

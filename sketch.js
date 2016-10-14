@@ -1,10 +1,5 @@
 function setup() {
   createCanvas( windowWidth , windowHeight );
-  
-  textAlign
-  <CENTER;>
-  textSize( 60 );
-  text("BUBBLES");
 
 }
 

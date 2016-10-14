@@ -4,7 +4,7 @@ function setup() {
   textAlign
   <CENTER;>
   textSize( 60 );
-  text("BUBBLES" , 0.5*xRes , 0.5*yRes );
+  text("BUBBLES");
 
 }
 

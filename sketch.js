@@ -1,11 +1,35 @@
 function setup() {
   createCanvas( windowWidth , windowHeight );
- fill( 0 , 0 , 0 , 1 );
+
+  markerAlpha = 0.15;
+  
+  numSpokes = 12;
+
+}
+function setup() {
+  setupGlobalVariables();
+ 
+  xRes = windowWidth;
+  yRes = windowHeight;
+ 
+  colorMode( HSB );
+  
+  
+  bgColor = color( 0 , 0 , 100 , 1 );
+  
+  
+  noStroke();
+  
+   angleMode( DEGREES );
+  
+ 
+  fill( 0 , 0 , 0 , 1 );
   textAlign( CENTER );
   textSize( 60 );
-  text("KALEIDOSCOPE" , 0.5*xRes , 0.5*yRes );
-}
-
+  text("BUBBLES" , 0.5*xRes , 0.5*yRes );
+  
+  createCanvas( xRes , yRes );
+  
 
 function draw() {
   ellipse( mouseX , mouseY , 50 , 50 );

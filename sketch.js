@@ -14,12 +14,6 @@ function setup() {
  
   colorMode( HSB );
   
-  
-  bgColor = color( 0 , 0 , 100 , 1 );
-  
-  
-  noStroke();
-  
    angleMode( DEGREES );
   
  
@@ -30,7 +24,7 @@ function setup() {
   
   createCanvas( xRes , yRes );
   
-
+}
 function draw() {
   ellipse( mouseX , mouseY , 50 , 50 );
 

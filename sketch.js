@@ -13,10 +13,7 @@ function setup() {
   yRes = windowHeight;
  
   colorMode( HSB );
-  
-   angleMode( DEGREES );
-  
- 
+
   fill( 0 , 0 , 0 , 1 );
   textAlign( CENTER );
   textSize( 60 );
@@ -28,8 +25,6 @@ function setup() {
 }
 function draw() {
   ellipse( mouseX , mouseY , 50 , 50 );
-
-  colorMode( HSB );
  
   fill( 25 , 25 , 121 , 200 );
 

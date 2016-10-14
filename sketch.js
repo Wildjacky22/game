@@ -1,6 +1,7 @@
 function setup() {
   createCanvas( windowWidth , windowHeight );
-   fill( 0 , 0 , 0 , 1 );
+   
+  fill( 0 , 0 , 0 , 1 );
   textAlign( CENTER );
   textSize( 60 );
   text("BUBBLES" , 0.5*xRes , 0.5*yRes );

@@ -23,6 +23,7 @@ function setup() {
   text("BUBBLES" , 0.5*xRes , 0.5*yRes );
   
   createCanvas( xRes , yRes );
+ startTime = millis(); 
   
 }
 function draw() {

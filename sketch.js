@@ -8,7 +8,7 @@ function setup() {
   text( "Click or touch to draw.\n-marthematicist-" , 0.5*xRes , 0.5*yRes + 35 );
   startTime = millis();
 }
-}
+
 
 function draw() {
   ellipse( mouseX , mouseY , 50 , 50 );

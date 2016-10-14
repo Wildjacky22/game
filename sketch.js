@@ -6,5 +6,5 @@ function setup() {
 
 function draw() {
   ellipse( mouseX , mouseY , 50 , 50 );
-  fill( 25 , 25 , 112 , 200 );
+  fillcolor = color( t , 100 , 100 , markerAlpha );
 }

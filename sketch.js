@@ -46,7 +46,4 @@ function draw() {
   ellipse( mouseX , mouseY , 15 , 15 );
     fill( 66 , 233 , 255 , 200 );
     
-  ellipse( mouseX , mouseY , 10 , 10 );
-    fill( 66 , 257 , 244 , 200 );
-    
 }

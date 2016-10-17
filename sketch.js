@@ -4,7 +4,8 @@ function setup() {
   xRes = windowWidth;
   yRes = windowHeight;
   
-   textAlign( CENTER );
+  fill( 0 , 0 , 0 , 1 );
+  textAlign( CENTER );
   textSize( 60 );
   text("BUBBLES" , 0.5*xRes , 0.5*yRes );
   textSize( 30 );

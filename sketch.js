@@ -1,8 +1,12 @@
 function setup() {
   createCanvas( windowWidth , windowHeight );
   
-  noStroke();
+  xRes = windowWidth;
+  yRes = windowHeight;
   
+   textAlign( CENTER );
+  textSize( 60 );
+  text("Bubbles" , 0.5*xRes , 0.5*yRes );
 }
 function draw() {
  ellipse( mouseX , mouseY , 75 , 75 );
@@ -27,22 +31,27 @@ function draw() {
     fill( 66 , 116 , 244 , 200 );
     
   ellipse( mouseX , mouseY , 40 , 40 );
-    fill( 66 , 158 , 244 , 200 );
+    fill( 66 , 138 , 244 , 200 );
     
   ellipse( mouseX , mouseY , 35 , 35 );
-    fill( 66 , 203 , 255 , 200 );
+    fill( 66 , 153 , 255 , 200 );
     
   ellipse( mouseX , mouseY , 30 , 30 );
-    fill( 66 , 217 , 244 , 200 );
-    
-    
-    
-    
-    
-    
-    
+    fill( 66 , 177 , 244 , 200 );
     
   ellipse( mouseX , mouseY , 25 , 25 );
-   fill( 25 , 25 , 121 , 200 );
+   fill( 66 , 192 , 244 , 200 );
+  
+  ellipse( mouseX , mouseY , 20 , 20 );
+   fill( 66 , 212 , 244 , 200);
+
+  ellipse( mouseX , mouseY , 15 , 15 );
+    fill( 66 , 233 , 255 , 200 );
+    
+  ellipse( mouseX , mouseY , 10 , 10 );
+    fill( 66 , 257 , 244 , 200 );
+    
+  ellipse( mouseX , mouseY , 5 , 5 );
+   fill( 66 , 272 , 244 , 200 );
 
 }

@@ -6,7 +6,10 @@ function setup() {
   
    textAlign( CENTER );
   textSize( 60 );
-  text("Bubbles" , 0.5*xRes , 0.5*yRes );
+  text("BUBBLES" , 0.5*xRes , 0.5*yRes );
+  textSize( 30 );
+  text( "Touch or move mouse to draw." , 0.5*xRes , 0.5*yRes + 35 );
+  startTime = millis();
 }
 function draw() {
  ellipse( mouseX , mouseY , 75 , 75 );

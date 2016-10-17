@@ -25,28 +25,4 @@ function draw() {
   ellipse( mouseX , mouseY , 50 , 50 );
     fill( 65 , 83 , 244 , 200 );
   
-  ellipse( mouseX , mouseY , 45 , 45 );
-    fill( 66 , 116 , 244 , 200 );
-    
-  ellipse( mouseX , mouseY , 40 , 40 );
-    fill( 66 , 138 , 244 , 200 );
-    
-  ellipse( mouseX , mouseY , 35 , 35 );
-    fill( 66 , 153 , 255 , 200 );
-    
-  ellipse( mouseX , mouseY , 30 , 30 );
-    fill( 66 , 177 , 244 , 200 );
-    
-  ellipse( mouseX , mouseY , 25 , 25 );
-   fill( 66 , 192 , 244 , 200 );
-  
-  ellipse( mouseX , mouseY , 20 , 20 );
-   fill( 66 , 212 , 244 , 200);
-
-  ellipse( mouseX , mouseY , 15 , 15 );
-    fill( 66 , 233 , 255 , 200 );
-    
-  ellipse( mouseX , mouseY , 10 , 10 );
-    fill( 66 , 257 , 244 , 200 );
-    
 }

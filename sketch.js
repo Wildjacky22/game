@@ -1,9 +1,6 @@
 function setup() {
   createCanvas( windowWidth , windowHeight );
   
-  xRes = windowWidth;
-  yRes = windowHeight;
-  
    noStroke();
 }
 function draw() {

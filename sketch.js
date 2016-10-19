@@ -5,7 +5,7 @@ function setup() {
   
 }
 function draw() {
- rect( windowWidth , windowHight , windowWidth , windowHeight )
+ rect( 500 , 500 , windowWidth , windowHeight )
   fill( 0, , 0 , 0 )
   
   ellipse(mouseX , mouseY , 2 , 2 );

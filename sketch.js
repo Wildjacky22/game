@@ -5,8 +5,8 @@ function setup() {
   
 }
 function draw() {
- rect( 1000 , 1000 , 1000 , 1000 )
-  fill( 0, , 0 , 0 )
+ rect( mouseX , mouseY , 1000 , 1000 )
+  fill( 0, , 0 , 0 , 200)
   
   ellipse(mouseX , mouseY , 2 , 2 );
     fill( 66 , 33 , 240 , 200);

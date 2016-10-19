@@ -3,10 +3,11 @@ function setup() {
 
  noStroke();
   
-rect( windowWidth , windowHight )
-  fill( 0, , 0 , 0 )
 }
 function draw() {
+ rect( windowWidth , windowHight )
+  fill( 0, , 0 , 0 )
+  
   ellipse(mouseX , mouseY , 2 , 2 );
     fill( 66 , 33 , 240 , 200);
   

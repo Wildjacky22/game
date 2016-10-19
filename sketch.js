@@ -3,8 +3,8 @@ function setup() {
 
  noStroke();
   
- background( bgColor );
-  
+rect( windowWidth , windowHight )
+  fill( 0, , 0 , 0 )
 }
 function draw() {
   ellipse(mouseX , mouseY , 2 , 2 );

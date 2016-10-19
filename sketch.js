@@ -1,8 +1,3 @@
-setupGlobalVariables = function() {
-
-  bgColor = color( 0 , 0 , 0 );
-}
-
 function setup() {
   createCanvas( windowWidth , windowHeight );
 

@@ -1,7 +1,15 @@
+setupGlobalVariables = function() {
+
+  bgColor = color( 0 , 0 , 0 );
+}
+
 function setup() {
   createCanvas( windowWidth , windowHeight );
 
- noStroke(); 
+ noStroke();
+  
+ background( bgColor );
+  
 }
 function draw() {
   ellipse(mouseX , mouseY , 2 , 2 );

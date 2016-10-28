@@ -1,7 +1,7 @@
 function setup() {
   createCanvas( windowWidth , windowHeight );
 
- //noStroke();
+  noStroke();
   
   background( 0 , 0 , 0 )
 }

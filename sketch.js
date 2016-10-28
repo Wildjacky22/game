@@ -3,6 +3,7 @@ function setup() {
 
  noStroke();
   
+  background( 0 , 0 , 0 )
 }
 function draw() {
   var r = random( 33 , 100 );

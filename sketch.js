@@ -7,9 +7,11 @@ function setup() {
 }
 function draw() {
   
-  textSize(75);
+ text-align: center;
+  textSize(60);
   fill( 100 , 120 , 255 );
-  text("Touch screen or move mouse to draw." , 400 , 200 );
+  text("Touch screen or move mouse to draw." , 300 , 300 );
+  
   
   var r = random( 33 , 100 );
   var g = random( 0 , 120 );

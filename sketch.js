@@ -10,7 +10,7 @@ function draw() {
 
   textSize(60);
   fill( 100 , 120 , 255 );
-  text("Touch screen or move mouse to draw." , 250 , 300 );
+  text("Touch screen or move mouse to draw." , 150 , 300 );
   
   
   var r = random( 33 , 100 );

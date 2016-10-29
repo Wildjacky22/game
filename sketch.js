@@ -7,7 +7,7 @@ function setup() {
 }
 function draw() {
   
- text-align: center;
+
   textSize(60);
   fill( 100 , 120 , 255 );
   text("Touch screen or move mouse to draw." , 300 , 300 );

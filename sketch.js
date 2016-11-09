@@ -13,7 +13,7 @@ function draw() {
   text("Touch screen or move mouse to draw." , 150 , 300 );
  
   var r = random( 0 , 100 );
-  var g = random( 0 , 255 );
+  var g = random( 0 , 250 );
   var b = random( 0 , 255 );
   var a = random( 0 , 100 );
 

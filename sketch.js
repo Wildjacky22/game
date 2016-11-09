@@ -9,57 +9,78 @@ function draw() {
   
 
   textSize(60);
-  fill( 100 , 120 , 255 );
+  fill( r , g , b );
   text("Touch screen or move mouse to draw." , 150 , 300 );
-  
-  
-  var r = random( 33 , 100 );
-  var g = random( 0 , 120 );
-  var b = random( 155 , 255);
-  
- ellipse( mouseX , mouseY , 2 , 2 );
-    fill( r , g , b , 100);
-  
- ellipse( mouseX , mouseY , 75 , 75 );
-    fill( r , g , b , 100 );
-   
-  ellipse( mouseX , mouseY , 70 , 70 );
-    fill( r , g , b , 100 );
-    
-  ellipse( mouseX , mouseY , 65 , 65 );
-    fill( r , g , b , 100 );
-    
-  ellipse( mouseX , mouseY , 60 , 60 );
-    fill( r , g , b , 100 );
-    
-  ellipse( mouseX , mouseY , 55 , 55 );
-    fill( r , g , b , 100 );
-    
-  ellipse( mouseX , mouseY , 50 , 50 );
-    fill( r , g , b , 100 );
-  
-  ellipse( mouseX , mouseY , 45 , 45 );
-    fill( r , g , b , 100 );
-    
-  ellipse( mouseX , mouseY , 40 , 40 );
-    fill( r , g , b , 100 );
-    
-  ellipse( mouseX , mouseY , 35 , 35 );
-    fill( r , g , b , 100 );
-    
-  ellipse( mouseX , mouseY , 30 , 30 );
-    fill( r , g , b , 100 );
-    
-  ellipse( mouseX , mouseY , 25 , 25 );
-   fill( r , g , b , 100 );
-  
-  ellipse( mouseX , mouseY , 20 , 20 );
-   fill( r , g , b , 100);
+ 
+  var r = random( 0 , 100 );
+  var g = random( 0 , 255 );
+  var b = random( 0 , 255 );
+  var a = random( 0 , 100 );
 
-  ellipse( mouseX , mouseY , 15 , 15 );
-    fill( r , g , b , 100 );
+  ellipse( mouseX , mouseY , 20 , 20 );
+   fill( r , g , b , a );
   
+  ellipse( mouseX , mouseY , 30 , 30 );
+    fill( r , g , b , a );
   
+  ellipse( mouseX , mouseY , 40 , 40);
+    fill( r , g , b , a );
+
+  ellipse( mouseX , mouseY , 50 , 50);
+    fill( r , g , b , a );
+ 
+ // ellipse( mouseX , mouseY , 55 , 55);
+   // fill( r , g , b , a );
+}  
+  //---------------------------------
+  
+  //var r = random( 33 , 100 );
+ // var g = random( 0 , 120 );
+  //var b = random( 155 , 255);
+  
+// ellipse( mouseX , mouseY , 2 , 2 );
+   // fill( r , g , b , 100);
+  
+ //ellipse( mouseX , mouseY , 75 , 75 );
+   // fill( r , g , b , 100 );
+   
+ // ellipse( mouseX , mouseY , 70 , 70 );
+    //fill( r , g , b , 100 );
+    
+  //ellipse( mouseX , mouseY , 65 , 65 );
+    //fill( r , g , b , 100 );
+    
+  //ellipse( mouseX , mouseY , 60 , 60 );
+    //fill( r , g , b , 100 );
+    
+  //ellipse( mouseX , mouseY , 55 , 55 );
+    //fill( r , g , b , 100 );
+    
+  //ellipse( mouseX , mouseY , 50 , 50 );
+    //fill( r , g , b , 100 );
+  
+  //ellipse( mouseX , mouseY , 45 , 45 );
+    //fill( r , g , b , 100 );
+    
+  //ellipse( mouseX , mouseY , 40 , 40 );
+   // fill( r , g , b , 100 );
+    
+ // ellipse( mouseX , mouseY , 35 , 35 );
+   // fill( r , g , b , 100 );
+    
+ // ellipse( mouseX , mouseY , 30 , 30 );
+    //fill( r , g , b , 100 );
+    
+  //ellipse( mouseX , mouseY , 25 , 25 );
+//   fill( r , g , b , 100 );
+  
+  //ellipse( mouseX , mouseY , 20 , 20 );
+   //fill( r , g , b , 100);
+
+//  ellipse( mouseX , mouseY , 15 , 15 );
+  //  fill( r , g , b , 100 );
+  
+// -------------------------  
   
  //ellipse( mouseX , mouseY , 2 , 2 );
     //fill( 66 , 33 , 240 , 100);

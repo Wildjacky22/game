@@ -75,7 +75,7 @@ strokeWeight( 3 );
  
   //creating the bezier
  
-  stroke( 255 , 255 , 255 , 5 );
+  stroke( 255 , 255 , 255 , 2 );
   
    for (var i = 0; i < 20 ; i += 20) {
  

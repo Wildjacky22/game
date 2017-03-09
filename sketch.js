@@ -92,8 +92,8 @@ strokeWeight( 3 );
   }
 }
 function keyTyped() {
-  if( key === 's' ) {
-    saveCanvas( 'canvas' , 'jpg' );
+  if( key === 'a' ) {
+    saveCanvas( 'image' , 'png' );
     console.log("saved");
   }
  }

@@ -16,7 +16,7 @@ function rotatex( point , center , angle ){
 
 function setup(){
   
-  createCanvas( windowWidth , windowHeight);
+  createCanvas( windowWidth , windowHeight );
  
   background( 0 , 0 , 0 );
 
@@ -24,9 +24,24 @@ function setup(){
 
 function draw(){
   
- //background( 255 , 255 ,255 );
+ //background( 0 , 0 , 0 );
 
-  noStroke();
+//  noStroke();
+
+strokeWeight( 3 );
+
+ noFill();
+  
+  //main points for bezier
+  
+  var c1 = windowWidth*0.5;
+
+  var c2 = windowHeight*0.5;
+ 
+  var v1 = windowWidth*0.3;
+ 
+  var v2 = windowHeight*0.3;
+
 
   var r = random( 0 , 35 );
   var g = random( 100 , 255 );
@@ -47,26 +62,29 @@ function draw(){
   translate(0.5*width , 0.5*height);
  
   //stopping point for the for loop
-  var N = 100;
+  var N = 50;
   
   for(var n= 0 ; n < N ; n++){
   
   push();
 
-  // setting the angle for which the balls will be rotating at
+  // setting the angle for which the pints will be rotating at
   var ang = n/N*2*PI;
   
   rotate(ang);
  
-  //creating the ellipse
+  //creating the bezier
  
-  fill( r , g , b , 2 );
+  stroke( 255 , 255 , 255 , 5 );
+  
+   for (var i = 0; i < 20 ; i += 20) {
  
-  ellipse( p1.x , p1.y , random( 1 , 100 ) , random( 1 , 100 ) );
+    bezier( v1/p1.x , v2/p1.y , 500 , 20  , 410 , 300 , mouseX , mouseY);
+ 
+  }
+  //stroke( mouseX*0.3 , mouseY*0.4 , windowWidth*0.5 , 22);
   
-  stroke( r ,g , b , 22);
-  
-  line( p1.x , p1.y , mouseX , mouseY );
+ // line( p1.x , p1.y , mouseX , mouseY );
   }
   
   if( mouseIsPressed ){
@@ -79,3 +97,4 @@ function keyTyped() {
     console.log("saved");
   }
  }
+ 

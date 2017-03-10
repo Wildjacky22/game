@@ -92,6 +92,12 @@ strokeWeight( 3 );
   }
 }
 function keyTyped() {
+  if( key === 's' ) {
+    saveCanvas( 'canvas' , 'jpg' );
+    console.log("saved");
+  }
+ }
+function keyTyped() {
   if( key === 'a' ) {
     saveCanvas( 'image' , 'png' );
     console.log("saved");

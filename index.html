@@ -33,11 +33,11 @@
        height: null,
        _grid: null, 
        
-       init: functon( d , c , r ) {
+       init: functon( d , c , r ){
        this.width = c;
           this.height = r;
-          
      }
+     
           this._grid = [];
           for(var x=0; x < c; x++)  {
             this._grid.push([]);
@@ -127,6 +127,26 @@ function setFood()  {
      
      function update()  {
             frames++; 
+           if ( frames%5 === 0) { 
+               var nx = snake.last.x;
+               var ny = snake.last.y;
+                 
+               switch (snake.direction) {
+                     case LEFT:
+                           nx--;
+                           break;
+                     case UP:
+                            nx--;
+                           break;
+                     case RIGHT:
+                            nx++;
+                           break;
+                     case DOWN:
+                            nx++;
+                           break;
+                       
+        }        
+      }
     }
      
      function draw()  {

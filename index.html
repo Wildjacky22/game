@@ -33,7 +33,7 @@
        height: null,
        _grid: null, 
        
-       init: functon( d , c , r ){
+       init: functon{( d , c , r )
        this.width = c;
           this.height = r;
      }
@@ -146,6 +146,10 @@ function setFood()  {
                            break;
                        
         }
+                
+                 if ( 0 > nx || nx > grid.width-1 || 0 > ny || ny > grid.height-1){
+                       return.init();
+                 }
                  
                  var tail = snake.remove();
                  grid.set(EMPTY, tail.x , tail.y);
